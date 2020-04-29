@@ -3,9 +3,9 @@ module.exports = [
 	{
 		text: "Guides",
 		items: [
-			{ text: "Getting started", link: "/help/guides/getting-started/" }
-		]
+			{ text: "Getting started", link: "/help/guides/getting-started/" },
+		],
 	},
 	{ text: "Patreon", link: "https://www.patreon.com/FaizanDurrani" },
-	{ text: "Discord", link: "https://discord.gg/Ny83JV3" }
+	{ text: "Discord", link: "https://discord.gg/Ny83JV3" },
 ];

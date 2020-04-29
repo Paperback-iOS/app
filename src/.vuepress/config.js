@@ -16,10 +16,8 @@ module.exports = {
 			{
 				title: "Guides",
 				collapsable: false,
-				children: [
-					"/help/guides/getting-started",
-				]
-			}
+				children: ["/help/guides/getting-started"],
+			},
 		],
 		displayAllHeaders: true,
 		sidebarDepth: 1,
@@ -29,8 +27,8 @@ module.exports = {
 		logo: "/assets/media/logo.png",
 		editLinks: true,
 		editLinkText: "Help us improve this page",
-		lastUpdated: "Last Updated"
+		lastUpdated: "Last Updated",
 	},
 	plugins: require("./config/plugins"),
-	extraWatchFiles: [".vuepress/config/nav.js", ".vuepress/config/plugins.js"]
+	extraWatchFiles: [".vuepress/config/nav.js", ".vuepress/config/plugins.js"],
 };

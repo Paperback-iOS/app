@@ -1,74 +1,63 @@
 <template>
-  <main
-    class="home"
-    aria-labelledby="main-title"
-  >
-    <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
+	<main class="home" aria-labelledby="main-title">
+		<header class="hero">
+			<img
+				v-if="data.heroImage"
+				:src="$withBase(data.heroImage)"
+				:alt="data.heroAlt || 'hero'"
+			/>
 
-      <h1
-        v-if="data.heroText !== null"
-        id="main-title"
-      >
-        {{ data.heroText || $title || 'Paperback' }}
-      </h1>
+			<h1 v-if="data.heroText !== null" id="main-title">
+				{{ data.heroText || $title || "Paperback" }}
+			</h1>
 
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
-        {{ data.tagline || $description || 'An ad-free manga reader for iOS.' }}
-      </p>
+			<p v-if="data.tagline !== null" class="description">
+				{{
+					data.tagline ||
+					$description ||
+					"An ad-free manga reader for iOS."
+				}}
+			</p>
 
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
-	  	<a
-		  class="action-button action-download"
-		  rel="noopener noreferrer"
-		  :href="browserDownloadUrl || 'https://github.com/FaizanDurrani/Paperback-Public/releases'"
-		  title="Download latest release"
-		  :download="browserDownloadUrl ? '' : null"
-		>
-		  <span>
-		    Download
-		  </span>
-		</a>
-        <NavLink
-          class="action-button action-get-started"
-          :item="actionLink"
-        />
-      </p>
-    </header>
+			<p v-if="data.actionText && data.actionLink" class="action">
+				<a
+					class="action-button action-download"
+					rel="noopener noreferrer"
+					:href="
+						browserDownloadUrl ||
+						'https://github.com/FaizanDurrani/Paperback-Public/releases'
+					"
+					title="Download latest release"
+					:download="browserDownloadUrl ? '' : null"
+				>
+					<span>
+						Download
+					</span>
+				</a>
+				<NavLink
+					class="action-button action-get-started"
+					:item="actionLink"
+				/>
+			</p>
+		</header>
 
-    <div
-      v-if="data.features && data.features.length"
-      class="features"
-    >
-      <div
-        v-for="(feature, index) in data.features"
-        :key="index"
-        class="feature"
-      >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
-      </div>
-    </div>
+		<div v-if="data.features && data.features.length" class="features">
+			<div
+				v-for="(feature, index) in data.features"
+				:key="index"
+				class="feature"
+			>
+				<h2>{{ feature.title }}</h2>
+				<p>{{ feature.details }}</p>
+			</div>
+		</div>
 
-    <Content class="theme-default-content custom" />
+		<Content class="theme-default-content custom" />
 
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
-      {{ data.footer }}
-    </div>
-  </main>
+		<div v-if="data.footer" class="footer">
+			{{ data.footer }}
+		</div>
+	</main>
 </template>
 
 <script>
@@ -87,7 +76,7 @@ export default {
 	data() {
 		return {
 			tagName: "",
-			browserDownloadUrl: ""
+			browserDownloadUrl: "",
 		};
 	},
 
@@ -99,19 +88,19 @@ export default {
 		actionLink() {
 			return {
 				link: this.data.actionLink,
-				text: this.data.actionText
+				text: this.data.actionText,
 			};
-		}
+		},
 	},
 
 	async mounted() {
 		const { data } = await axios.get(RELEASE_URL);
 		// Maybe eventually some release has more than the apk in assets.
-		const apkAsset = data.assets.find(a => a.name.includes(".ipa"));
+		const apkAsset = data.assets.find((a) => a.name.includes(".ipa"));
 		// Set the values.
 		this.$data.tagName = data.tag_name;
 		this.$data.browserDownloadUrl = apkAsset.browser_download_url;
-	}
+	},
 };
 </script>
 

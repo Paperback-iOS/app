@@ -2,38 +2,38 @@ module.exports = [
 	[
 		"clean-urls",
 		{
-			normalSuffix: "/"
-		}
+			normalSuffix: "/",
+		},
 	],
 	[
 		"vuepress-plugin-container",
 		{
 			type: "expander",
-			before: info =>
+			before: (info) =>
 				`<details class="expander"><summary class="expansion">${info}</summary>`,
-			after: "</details>"
-		}
+			after: "</details>",
+		},
 	],
 	[
 		"vuepress-plugin-container",
 		{
 			type: "guide",
-			before: info => `<div class="guide"><p class="title">${info}</p>`,
-			after: "</div>"
-		}
+			before: (info) => `<div class="guide"><p class="title">${info}</p>`,
+			after: "</div>",
+		},
 	],
 	[
 		"vuepress-plugin-container",
 		{
 			type: "aside",
-			defaultTitle: ""
-		}
+			defaultTitle: "",
+		},
 	],
 	[
 		"vuepress-plugin-container",
 		{
 			type: "aside-guide",
-			defaultTitle: ""
-		}
-	]
+			defaultTitle: "",
+		},
+	],
 ];
