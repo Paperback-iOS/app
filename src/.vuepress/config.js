@@ -2,6 +2,7 @@ module.exports = {
 	title: "Paperback",
 	description: "An ad-free manga reader for iOS.",
 	dest: "./public",
+	base: "/Paperback/",
 	themeConfig: {
 		nav: require("./config/nav"),
 		sidebar: [
