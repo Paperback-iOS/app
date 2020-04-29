@@ -1,0 +1,80 @@
+// Custom rules
+user-select()
+	-webkit-user-select arguments
+	-moz-user-select arguments
+	-ms-user-select arguments
+	user-select arguments
+
+font-feature-settings()
+	-webkit-font-feature-settings arguments
+	-moz-font-feature-settings arguments
+	-ms-font-feature-settings arguments
+	font-feature-settings arguments
+
+// Custom block containers
+.custom-block
+	&.tip
+	&.warning
+	&.error
+	&.danger
+		border-radius $containerBorderRadius
+	&.aside
+		color transparentify($textColor, 0.4)
+		font-size 0.9rem
+		text-align right
+	&.aside-guide
+		font-size 0.9rem
+		text-align left
+		p
+			margin-top: 0
+		a
+			color $accentColorSecondary
+
+// Guide container
+.guide
+	background-color $containerBackgroundColor
+	border-radius $containerBorderRadius
+	margin 1rem 0
+	padding 0.1rem 1.5rem
+	.title
+		font-weight bold
+
+// Expander container
+.expander
+	background-color $containerBackgroundColor
+	border-radius $containerBorderRadius
+	margin 1rem 0
+	padding 1rem 1.5rem
+	.expansion
+		user-select none
+		font-weight bold
+		&:focus
+			outline none
+
+// Badge styling
+.badge
+	&.default-indicator
+		background-color $accentColor !important
+	&.version-indicator
+		background-color $badgeVersionColor !important
+
+// Navbar Changes
+.navbar
+	.site-name.can-hide
+		/* Display navbar-name even for small screens */
+		@media (max-width: $MQMobile)
+			display inherit
+
+// Page Header Logo
+.headerLogo
+	vertical-align middle
+	height 3rem
+	margin-bottom .625rem
+
+// Center align class
+.centered
+	text-align center
+
+// Bold class
+.bold
+	font-weight bold
