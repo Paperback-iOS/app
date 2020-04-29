@@ -6,7 +6,7 @@ actionText: Get started →
 actionLink: /help/guides/getting-started
 features:
     - title: iPad support
-      details: Friendly layout with a robust double spread chapter reader for iPad. (PadOS 13.4+)
+      details: Friendly layout with a robust double spread chapter reader for iPad. (iPadOS 13.4+)
     - title: MangaDex integration
       details: Paperback will sync your settings to and from MangaDex.
     - title: No advertisements
