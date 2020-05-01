@@ -29,6 +29,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2.3.0
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: Paperback-iOS/paperback-ios.github.io
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
         with:
