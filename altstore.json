@@ -1,0 +1,26 @@
+{
+  "name": "Paperback Official",
+  "identifier": "moe.paperback.altstore",
+  "apps": [
+    {
+      "name": "Paperback",
+      "bundleIdentifier": "com.faizandurrani.paperback.ios",
+      "developerName": "Faizan Durrani",
+      "subtitle": "An Ad-Free Comic/Book reader for iOS, Supports Komga and external sources.",
+      "version": "0.7",
+      "versionDate": "2022-03-16T07:00:00-08:00",
+      "versionDescription": "Bug Fixes and Improvements",
+      "downloadURL": "https://example.com/app.ipa",
+      "localizedDescription": "An Ad-Free Comic/Book reader for iOS, Supports Komga and external sources.",
+      "iconURL": "https://via.placeholder.com/256x256.png/0000FF?text=Icon",
+      "tintColor": "000000",
+      "size": 0,
+      "screenshotURLs": [
+        "https://via.placeholder.com/750x1334.png/0000FF?text=Screenshot+1",
+        "https://via.placeholder.com/750x1334.png/FF0000?text=Screenshot+2",
+        "https://via.placeholder.com/750x1334.png/00FF00?text=Screenshot+3"
+      ]
+    }
+  ],
+  "news": []
+}
