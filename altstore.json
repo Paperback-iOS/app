@@ -8,17 +8,17 @@
       "developerName": "Faizan Durrani",
       "subtitle": "An Ad-Free Comic/Book reader for iOS, Supports Komga and external sources.",
       "version": "0.7",
-      "versionDate": "2022-03-16T07:00:00-08:00",
+      "versionDate": "2022-05-03T06:26:33Z",
       "versionDescription": "Bug Fixes and Improvements",
-      "downloadURL": "https://example.com/app.ipa",
+      "downloadURL": "https://github.com/Paperback-iOS/app/releases/download/v0.7-r34/Paperback.ipa",
       "localizedDescription": "An Ad-Free Comic/Book reader for iOS, Supports Komga and external sources.",
       "iconURL": "https://via.placeholder.com/256x256.png/0000FF?text=Icon",
       "tintColor": "000000",
       "size": 0,
       "screenshotURLs": [
-        "https://via.placeholder.com/750x1334.png/0000FF?text=Screenshot+1",
-        "https://via.placeholder.com/750x1334.png/FF0000?text=Screenshot+2",
-        "https://via.placeholder.com/750x1334.png/00FF00?text=Screenshot+3"
+        "https://altstore.paperback.moe/assets/screenshot-1.PNG",
+        "https://altstore.paperback.moe/assets/screenshot-2.PNG",
+        "https://altstore.paperback.moe/assets/screenshot-3.PNG"
       ]
     }
   ],
