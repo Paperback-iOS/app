@@ -1,0 +1,34 @@
+name: Bug Report
+description: Report a bug within the app
+title: '[BUG]'
+labels:
+  - bug
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behaviour
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: App Version
+      description: 'The version of Paperback that you are running. Eg: v0.2-wip.3.1'
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
