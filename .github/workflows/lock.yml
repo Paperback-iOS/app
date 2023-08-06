@@ -18,6 +18,7 @@ jobs:
     steps:
       - uses: dessant/lock-threads@v4
         with:
+          # github-token: ${{ secrets.GITHUB_TOKEN }}
           add-issue-labels: 'outdated, archived'
           issue-comment: >
             This issue has been automatically locked since there
