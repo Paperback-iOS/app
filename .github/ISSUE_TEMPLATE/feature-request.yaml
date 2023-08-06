@@ -5,6 +5,7 @@ labels: ["enhancement"]
 assignees: []
 body:
   - type: markdown
+    id: message
     attributes:
       value: |
         Thanks for taking the time to fill out this feature request!
@@ -23,9 +24,9 @@ body:
         - label: I have searched the [issue tracker](https://github.com/Paperback-iOS/app/issues) for a feature request that matches the one I want to file, without success.
           required: true
   - type: dropdown
-    id: device-type(s)
+    id: device-types
     attributes:
-      label: For what type of Apple device is the feature request for?
+      label: What type of Apple device is the feature request for?
       multiple: true
       options:
         - All device types

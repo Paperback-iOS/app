@@ -5,6 +5,7 @@ labels: ["bug"]
 assignees: []
 body:
   - type: markdown
+    id: message
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
@@ -23,7 +24,7 @@ body:
         - label: I have searched the [issue tracker](https://github.com/Paperback-iOS/app/issues) for a bug report that matches the one I want to file, without success.
           required: true
   - type: dropdown
-    id: device-type(s)
+    id: device-types
     attributes:
       label: What type of Apple device are you using?
       multiple: true
