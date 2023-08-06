@@ -1,0 +1,12 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Support Disclaimer
+    url: https://github.com/Paperback-iOS/app#Support-Disclaimer
+    about: Please read this before creating any issue.
+  - name: GitHub Issues
+    url: https://github.com/ciderapp/Cider-2/issues
+    about: Check to make sure there is not an issues already open that is related to your issue.
+  - name: The Official Discord
+    url: https://discord.com/invite/Paperback
+    about: For quick support from the community (use the \#support channel).
