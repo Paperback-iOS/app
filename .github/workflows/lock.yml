@@ -18,11 +18,12 @@ jobs:
     steps:
       - uses: dessant/lock-threads@v4
         with:
-          add-issue-labels: 'outdated'
+          add-issue-labels: 'outdated, archived'
           issue-comment: >
             This issue has been automatically locked since there
             has not been any recent activity after it was closed.
             Please open a new issue for related bugs.
+          add-pr-labels: 'archived'
           pr-comment: >
             This pull request has been automatically locked since there
             has not been any recent activity after it was closed.
