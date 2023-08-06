@@ -15,11 +15,11 @@ body:
       label: Preflight Checklist
       description: Please ensure you've completed all of the following.
       options:
-        - label: I have read and agree to follow the [support disclaimer](https://github.com/Paperback-iOS/app#support-disclaimer).
+        - label: I have read and I agree to follow the [support disclaimer](https://github.com/Paperback-iOS/app#support-disclaimer).
           required: true
         - label: I am sure that my feature request has nothing to with third party extensions.
           required: true          
-        - label: I am using the latest available Paperback version (currently 0.8.6).
+        - label: I am using the latest available Paperback version (currently 0.8).
           required: true
         - label: I have searched the [issue tracker](https://github.com/Paperback-iOS/app/issues) for a feature request that matches the one I want to file, without success.
           required: true
@@ -46,7 +46,7 @@ body:
   - type: textarea
     id: feature-motivation
     attributes:
-      label: Feature motivation
+      label: Feature Motivation
       description: Explain how the feature will improve the app.
       placeholder: Tell us the about the benefits!
     validations:
@@ -54,7 +54,7 @@ body:
   - type: textarea
     id: extra-info
     attributes:
-      label: Anything else?
+      label: Anything Else?
       description: |
         Links? References? Anything that will give us more context about the feature which you are requesting!
 
