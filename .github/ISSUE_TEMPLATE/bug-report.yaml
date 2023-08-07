@@ -43,29 +43,12 @@ body:
       placeholder: "e.g. iOS 16.6, iPadOS 16.6 or macOS Ventura 13.5"
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: app-version
     attributes:
       label: App Version
       description: What version of Paperback are you using? You can find this info at the bottom of the settings page from within the app.
-      options:
-        - 0.6
-        - 0.7
-        - 0.8.0
-        - 0.8.1
-        - 0.8.2
-        - 0.8.3
-        - 0.8.4
-        - 0.8.5
-        - 0.8.6
-    validations:
-      required: true
-  - type: input
-    id: build-version
-    attributes:
-      label: Build Version
-      description: What specific build of Paperback are you using? You can find this info at the bottom of the settings page from within the app.
-      placeholder: "e.g. r2 or r47"
+      placeholder: "e.g. 0.8.6-r2 or 0.7-r47 etc"
     validations:
       required: true
   - type: textarea
