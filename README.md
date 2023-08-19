@@ -10,10 +10,11 @@ The Paperback app can be obtained through the following platforms (available for
 
 > The app is currently only available in:
 >
+> - **Afrika:** Egypt and South Africa.
 > - **America:** The US and Canada.
+> - **Asia:** India, Oman, the UAE, Indonesia, Pakistan, Philippines, Singapore, Sri Lanka and Vietnam.
+> - **Australia:** Australia
 > - **Europe:** France, Netherlands and the UK.
-> - **Middle East:** Egypt, India, Oman, South Africa and the UAE.
-> - **Asia:** Australia, Indonesia, Pakistan, Philippines, Singapore, Sri Lanka and Vietnam.
 >
 > Do note that you can alway switch to one of the above regions to get access to the App Store build.
 
