@@ -2,39 +2,8 @@
 
 Paperback is an ad-free comic/manga reader for Apple devices. It supports Komga and other third party extensions.
 
-## Installation
-
-The Paperback app can be obtained through the following platforms (available for iOS, iPadOS and macOS):
-
-- **App Store:** Visit the [App Store page](https://apps.apple.com/gb/app/paperback-a-komga-client/id1626613373) for the latest stable release. Do note that the regions where the app is available are limited at the moment, this list will increase at the end of 2023.
-
-> The app is currently only available in:
->
-> - **Afrika:** Egypt and South Africa.
-> - **America:** The US and Canada.
-> - **Asia:** India, Oman, the UAE, Indonesia, Pakistan, Philippines, Singapore, Sri Lanka and Vietnam.
-> - **Australia:** Australia
-> - **Europe:** France, Netherlands and the UK.
->
-> Do note that you can alway switch to one of the above regions to get access to the App Store build.
-
-- **TestFlight** Visit the [Patreon](https://www.patreon.com/FaizanDurrani) and become a supporter, after that you need to link it to your Discord account [here](https://www.patreon.com/settings/apps) and then you follow the instructions found in the [official Discord server](https://discord.com/invite/Paperback) to get access to the latest alpha or beta release.
-
-- **Sideloading** You can install the app trough sideloading as well, for this you can use tools like [AltStore](https://altstore.io/) or [Sideloadly](https://sideloadly.io/), you can get the latest IPA from the [releases page](https://github.com/Paperback-iOS/app/releases).
-
-## Updating
-
-Updating the app is pretty straightforward.
-
-- **App Store:** This happens automatically, you don't need to do anything yourself.
-
-- **TestFlight** This happens automatically, you don't need to do anything yourself.
-
-- **Sideloading** This doesn't happen automatically, here are the steps which you need to undergo:
-    1. Make a backup from within the outdated app.
-    2. Uninstall the outdated app.
-    3. Sideload the new version of the app.
-    4. Share the backup with the newly installed app.
+## Installation & Troubleshooting
+Use the [website](https://paperback.moe) for help with installing and troubleshooting common issues.
 
 ## Issues and Feature Requests
 
@@ -54,4 +23,4 @@ Here are some rules which you will need to follow to make it easier for the deve
 
 ## Contact
 
-You can join the official [Discord server](https://discord.com/invite/Paperback) for quick support from the community (use the \#support channel).
+You can join the official [Discord server](https://discord.paperback.moe) for quick support from the community (use the \#support channel).
