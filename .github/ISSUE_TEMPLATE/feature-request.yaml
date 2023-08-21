@@ -1,6 +1,6 @@
 name: Feature Request
 description: If you have a feature request for the app. Please use this template to help improve the app.
-title: "[FEATURE REQUEST]: "
+title: "[FEATURE REQUEST] "
 labels: ["enhancement"]
 assignees: []
 body:
