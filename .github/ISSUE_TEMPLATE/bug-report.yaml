@@ -1,6 +1,6 @@
 name: Bug Report
 description: If you encounter a bug whilst using the app. Please use this template to help improve the app.
-title: "[BUG]: "
+title: "[BUG] "
 labels: ["bug"]
 assignees: []
 body:
