@@ -5,7 +5,7 @@ contact_links:
     url: https://github.com/Paperback-iOS/app#Support-Disclaimer
     about: Please read this before creating any issue.
   - name: GitHub Issues
-    url: https://github.com/ciderapp/Cider-2/issues
+    url: https://github.com/Paperback-iOS/app/issues
     about: Check to make sure there is not an issues already open that is related to your issue.
   - name: The Official Discord
     url: https://discord.com/invite/Paperback
