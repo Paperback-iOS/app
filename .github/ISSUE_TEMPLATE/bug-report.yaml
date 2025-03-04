@@ -19,7 +19,7 @@ body:
           required: true
         - label: I am sure that my bug has nothing to with third party extensions.
           required: true          
-        - label: I have read the [troubleshooting FAQs](https://paperback.moe/help/faq/) and looked trough the \#help-desk channel on the [official Discord](https://discord.com/invite/Paperback), but none solved my issue.
+        - label: I have read the [troubleshooting FAQs](https://paperback.moe/faq/troubleshooting/) and looked trough the \#help-desk channel on the [official Discord](https://discord.com/invite/Paperback), but none solved my issue.
           required: true
         - label: I have searched the [issue tracker](https://github.com/Paperback-iOS/app/issues) for a bug report that matches the one I want to file, without success.
           required: true
